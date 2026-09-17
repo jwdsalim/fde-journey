@@ -2,6 +2,7 @@
 # Configuration locks karne ke liye
 model_config = ("gpt-4o", 0.7, 2000) # (Model, Temperature, MaxTokens)
 print("Tuple value (Model Name):", model_config[0])
+print("Tuple value (Model Version):", model_config[1])
 
 # Agar aap ise change karne ki koshish karenge toh Error aayega:
 # model_config[1] = 0.5 # TypeError: 'tuple' object does not support item assignment
